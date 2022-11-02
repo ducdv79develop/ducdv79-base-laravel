@@ -1,0 +1,1 @@
+{{ __('Payment::message.test') }}

@@ -1,0 +1,151 @@
+.borrower-info {
+    border: 1px solid #ced4da;
+    padding: 10px;
+    background-color: #e9ecef;
+}
+.borrower-info-item span:first-child {
+    margin-right: 10px;
+}
+.value-clipboard {
+    width: 60%;
+    color: blue;
+}
+.copy-clipboard {
+    color: #5a5a5a;
+    cursor: pointer;
+}
+#type_parent {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.checkbox-group-permission {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.form-checkbox-child {
+    margin-left: 10px;
+}
+.form-items {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.form-footer {
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.form-card-body,
+.form-card-footer {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.checkbox-after-input {
+    padding-top: 25px;
+}
+.btn-select-borrower {
+    width: 30%;
+}
+.form-check-custom {
+    position: relative;
+    display: flex;
+    padding-left: 1.25rem;
+}
+.info-box-number {
+    margin-top: 0;
+    font-size: 20px;
+}
+.progress-description {
+    font-size: 15px;
+}
+.info-box-text {
+    font-size: 18px;
+}
+.info-box-content {
+    line-height: 0
+}
+.prod-thumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 0;
+}
+.prod-thumb-item {
+    width: 137px;
+    height: 137px;
+    list-style-type: none;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.prod-thumb-item img {
+    max-width: 135px;
+    width: auto;
+    height: auto;
+    max-height: 135px;
+}
+.prod-thumb-del-item {
+    position: absolute;
+    top: -3px;
+    left: 120px;
+    color: red;
+}
+.prod-thumb-item-parent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.prod-thumb-item-img {
+    width: 100%;
+    height: 100%;
+}
+.prod-thumb-checkbox {
+    position: absolute;
+    top: -3px;
+    left: 120px;
+}
+.phpdebugbar-widgets-sql-duplicate {
+    background-color: #ffabab !important;
+}
+.note-error-danger {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: red;
+}
+.note-error-danger label {
+    font-weight: 500 !important;
+}
+@media only screen and (max-width: 1199px) and (min-width: 769px) {
+    .form-items {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .form-footer {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .form-card-body,
+    .form-card-footer {
+        margin-bottom: 10px;
+    }
+    .form-items {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .form-footer {
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-bottom: 30px;
+    }
+    .checkbox-after-input {
+        padding-top: 0;
+    }
+    .btn-select-borrower {
+        width: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "packages/vietnamzone",
+    "description": "Thư viện API tỉnh thành phố khu vực Việt Nam",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "ducdv79",
+            "email": "duc.daovan0709@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3.1|^7.0|^8",
+        "phpoffice/phpspreadsheet": "^1.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Packages\\Vietnamzone\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Packages\\Vietnamzone\\Providers\\VietnamZoneServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}

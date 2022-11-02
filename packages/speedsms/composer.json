@@ -1,0 +1,32 @@
+{
+    "name": "packages/speedsms",
+    "description": "Gửi sms thông qua dịch vụ API của speedsms",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Ducdv",
+            "email": "duc.daovan0709@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Packages\\Speedsms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Packages\\Speedsms\\Providers\\SpeedsmsServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}

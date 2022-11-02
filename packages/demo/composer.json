@@ -1,0 +1,31 @@
+{
+    "name": "packages/demo",
+    "description": "Mẫu tạo thư viện",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Ducdv",
+            "email": "duc.daovan0709@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Packages\\Demo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "DemoServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}
